@@ -61,10 +61,10 @@
         top: 100%;
         right: -100%;
         width: 200px;
-        height: 34vh;
+        /* height: 34vh; */
         background: var(--main-color);
         border-radius: 10px;
-        display: flex;
+        /* display: block; */
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
@@ -505,7 +505,7 @@ button{
 }
 
 .about {
-    didisplay: flex;
+    display: flex;
     flex-direction: column-reverse;
     overflow: hidden;
     height: 785px;

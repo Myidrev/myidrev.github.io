@@ -26,17 +26,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/animation.css"> -->
+    <!-- <link rel="stylesheet" href="css/animation.css"> 
+    .portfo-img .img {
+    width: 520px;
+    border-radius: 5px;
+}-->
 </head>
-<body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">
+<body">
     <header>
         <img src="resource/logo/LogoMakr-6eCHvR.png" class="logo">
 
         <ul class="navigation">
-            <li><a href="#">Beranda</a></li>
-            <li><a href="#">Tentang Saya</a></li>
-            <li><a href="#">Skill</a></li>
-            <li><a href="#">Portfolio</a></li>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#tentangsaya">Tentang Saya</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#">Kontak</a></li>
             <!-- <div class="icon-navbar">
                 <div class="isian">
@@ -52,7 +56,7 @@
         <div class="main">
             <div class="main-satu">
                 <a href="#"><i class="ri-linkedin-box-fill"></i></a>
-                <a href="#"><i class="ri-instagram-line"></i></a>
+                <a href="https://www.instagram.com/myidrev/"><i class="ri-instagram-line"></i></a>
                 <a href="#"><i class="ri-twitter-fill"></i></a>
             </div>
             <div class="bx bx-menu" id="menu-icon"></div>
@@ -61,10 +65,10 @@
         <div class="hambuger">
                 <div class="isian1">
                 <ul class="navigation1">
-                    <li><a href="#">Beranda</a></li>
-                    <li><a href="#">Tentang Saya</a></li>
-                    <li><a href="#">Skill</a></li>
-                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#tentangsaya">Tentang Saya</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#">Kontak</a></li>
                 </ul>
                 <div class="main-satu1">
@@ -79,7 +83,7 @@
     <!-- Tampilan page awal -->
     <!-- main content -->
     <div class="content">
-        <div class="wrapper">
+        <div class="wrapper" id="beranda">
             <div class="col col1">
                 <h1 class="top-line">MY IDREV</h1>
                 <h2>I'm <span class="multitext text">Coder</span>
@@ -102,7 +106,7 @@
         <div class="bol"></div>
         
         <!-- About Page -->
-        <div class="about">
+        <div class="about" id="tentangsaya">
             <div class="col col3">
                 <div class="boximg1">
                     <img src="resource/img/bgr.png" alt="" class="splash1">
@@ -123,7 +127,7 @@
                 </div>
             </div>
         </div> 
-        <div class="skill">
+        <div class="skill" id="skill">
             <div class="textskill">
                 <span class="skil-line">Skill</span>
                 <h3 class="bottomline lolian">Skill Saya</h3>
@@ -161,7 +165,7 @@
                     </div>
                 </div>
         </div>
-        <div class="portfolio">
+        <div class="portfolio" id="portfolio">
             <div class="textskill botom">
                 <span class="kontak-line">Portfolio</span>
                 <h3 class="bottomline lolian">My Project</h3>
@@ -249,7 +253,7 @@
     <!-- Footer -->
     <footer class="shad-bold">
             <div class="Smal text-footer">
-                <p>♥ Created by <span>Idrev</span> with ❤️  and passion ♥ </p>
+                <p>♥ Created by <span>Myidrev</span> with ❤️  and passion ♥ </p>
             </div>
             <div class="Smal text-footer">
                 <p>Powered by pure HTML and CSS

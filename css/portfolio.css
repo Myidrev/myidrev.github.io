@@ -47,4 +47,39 @@
     width: 520px;
     border-radius: 5px;
 }
+@media (max-width: 575.98px) { 
+    .portfo-img .img {
+        width: 255px;
+        border-radius: 5px;
+    }
+    .portfo-img {
+        padding-top: 0px;
+    }
+    .colum-portfo {
+        gap: 50px;
+    }
+    .textskill h3 {
+        width: 110%;
+    }
+ }
+ /* @media (max-width: 991.98px) { 
+    .colum-portfo {
+        flex-direction: column;
+  }
+  .portfolio {
+    padding: 0;
+ }
+ .portfo-img .img {
+    width: 550px;
+    border-radius: 5px;
+}
+} */
+/* // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
 
