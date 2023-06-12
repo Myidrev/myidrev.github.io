@@ -1,0 +1,41 @@
+footer {
+    border-top: 5px solid var(--main-color);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 130px;
+    height: 140px;
+    text-align: center;
+}
+.shad-bold {
+    filter: drop-shadow(8px 7px 20px rgba(4, 4, 22, 0.5));
+}
+.Smal p{
+    position: relative;
+    margin: 5px;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+}
+.text-footer p{
+    color: white;
+    font-style: normal;
+    font-weight: 300;
+    /* font-size: 18px; */
+    transition: 0.5s;
+}
+.Smal p a {
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 400;
+}
+.Smal p span {
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 14;
+    display: inline-block;
+    text-transform: uppercase;
+}

@@ -1,0 +1,83 @@
+
+.boximg .splash{
+    filter: drop-shadow(0 0 50px rgba(246, 75, 41, 0.5));
+    animation:cahaya 5s linear infinite,cahayabck 5s linear infinite ;
+   
+}
+.wrapper::before{
+    animation: objek2 3.1s linear infinite
+}
+.wrapper::after {
+    animation: objek1 3.9s linear infinite;
+}
+.content::before {
+    animation: objek3 2.5s linear infinite;
+}
+
+@keyframes cahaya{
+    0%
+    {
+        filter: drop-shadow(0 0 45px rgba(246, 75, 41, 0.5)); 
+        
+    }
+    25%
+    {
+        filter: drop-shadow(0 0 50px rgba(246, 75, 41, 1)); 
+    }
+    50% 
+    {
+        filter: drop-shadow(0 0 45px rgba(246, 75, 41, 0.5)); 
+    }
+    75%
+    {
+        filter: drop-shadow(0 0 50px rgba(246, 75, 41, 1)); 
+    }
+    100%
+    {
+        filter: drop-shadow(0 0 45px rgba(246, 75, 41, 0.5));
+    }
+}
+
+@keyframes cahayabck {
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    25%
+    {
+        transform: rotate(150deg);
+    }
+    50%
+    {
+        transform: rotate(0deg);
+    }
+    75%
+    {
+        transform: rotate(-150deg);
+    }
+    100% 
+    {
+        transform: rotate(0deg);
+    }
+}
+@keyframes objek1 {
+    50%
+    {
+        top: 9.5%;
+        left: 40%;
+    }
+}
+@keyframes objek2 {
+    50%
+    {
+        top: 38%;
+        left: -11%;
+    }
+}
+@keyframes objek3 {
+    50%
+    {
+        top: 75%;
+        left: 87%;
+    }
+}

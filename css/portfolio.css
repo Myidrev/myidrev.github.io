@@ -1,0 +1,50 @@
+/* Portfolio */
+.portfolio {
+    padding-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    /* height: 120vh; */
+    padding: 0 110px;
+    align-items: center;
+    overflow: hidden;
+    margin: 100px 0;
+}
+.portfo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.colum-portfo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* gap: 30px; */
+    flex-wrap: wrap;
+    align-items: center;
+}
+.portfo-img {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 60px;
+    position: relative;
+    text-align: start;
+}
+.portfo-img h3 {
+    font-size: 1.3em;
+    padding-top: 25px;
+    color: var(--main-color);
+}
+.portfo-img .img {
+    width: 520px;
+    border-radius: 5px;
+}
+
