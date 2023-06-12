@@ -127,7 +127,6 @@
     .skill {
         height: 1100px;
         /* margin-top: 50px; */
-        border: 1px solid red;
         width: 100%;
     }
     .card {
@@ -146,7 +145,6 @@
         /* overflow: auto; */
         justify-content: center;
         align-items: center;
-        border: 1px solid rgb(0, 170, 0);
     }
     .col {
         width: 100vw;
@@ -360,7 +358,6 @@
         top: 100%;
         right: -100%;
         width: 200px;
-        border: 1px solid #f64b29;
         /* height: 40vh; */
         padding: 10px 0;
         overflow: hidden;
@@ -434,7 +431,6 @@
      transform-origin: left;
 }
 .main-satu1 {
-    /* border: 1px solid red; */
     display: flex;
     align-items: center;
 }
@@ -459,10 +455,8 @@
     /* margin-bottom: -100px; */
     justify-content: center;
     align-items: center;
-    border: 1px solid blue;
 }
 .col {
-    border: 1px solid red;
     width: 100vw;
     padding: 0 30px;
 }
@@ -478,7 +472,6 @@ h2 {
 }
 p {
     padding: 0;
-    /* border: 1px solid red !important; */
     font-size: 12px;
 }
 .btns {
